@@ -1,0 +1,231 @@
+h1 {    
+    background-color: aqua;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid lightblue;   
+
+}
+header {
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+body {
+    background-color: lightpink;
+    font-family: Arial, sans-serif;
+
+}
+
+.text1 {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navi{
+    padding: 5px;
+    margin: 5px;
+}
+.div-contact {
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.map{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-content {
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+}
+
+.productos-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4px;  
+}
+
+.h2-productos {
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.producto{
+    padding: 2rem;
+    text-align: center;
+}
+
+.bienvenida {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px auto;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fafc;
+    padding: 32px 16px;
+    margin: 32px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    max-width: 700px;
+}
+
+.sobre-nosotros h2 {
+    color: #1e3a5c;
+    font-size: 2rem;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.sobre-nosotros p {
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 12px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.sobre-nosotros img {
+    max-width: 180px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .sobre-nosotros {
+        max-width: 95%;
+        padding: 24px 8px;
+    }
+    .sobre-nosotros p {
+        font-size: 1rem;
+        max-width: 95%;
+    }
+    .bienvenida {
+        padding: 16px;
+    }
+    .h2-productos {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .productos-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+    .producto {
+        width: 90%;
+        margin-bottom: 16px;
+        padding: 1rem;
+    }
+    .sobre-nosotros {
+        flex-direction: column;
+        padding: 16px 4px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .h2-productos {
+        font-size: 1.1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .bienvenida {
+        padding: 8px;
+        font-size: 0.95rem;
+    }
+    .sobre-nosotros {
+        padding: 8px 2px;
+        margin: 12px auto;
+    }
+    .sobre-nosotros h2 {
+        font-size: 1.2rem;
+    }
+    .sobre-nosotros img {
+        max-width: 100px;
+    }
+    .footer-content {
+        font-size: 0.9rem;
+        padding: 6px;
+    }
+    .text1 {
+        font-size: 13px;
+    }
+    nav {
+        padding: 6px;
+    }
+}
+.btn-comprar {
+            background-color: #f9b6c2;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 24px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 10px;
+        }
+.btn-comprar:hover {
+            background-color: #e48fa3;
+        }
+nav .navi {
+            background-color: #fff;
+            border: 2px solid #b3e0f7;
+            border-radius: 8px;
+            padding: 8px 18px;
+            margin: 0 8px;
+            font-weight: bold;
+            color: #1e3a5c;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: background 0.2s, color 0.2s, box-shadow 0.2s, border-color 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+nav .navi:hover {
+            background-color: #f9b6c2;
+            color: #fff;
+            border-color: #e48fa3;
+            box-shadow: 0 4px 16px rgba(249,182,194,0.15);
+            text-decoration: none;
+        }
